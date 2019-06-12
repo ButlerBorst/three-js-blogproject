@@ -48,7 +48,7 @@ var loader2 = new THREE.GLTFLoader().setPath( '/assets/' );
 					});
 
 var loader3 = new THREE.GLTFLoader().setPath( '/assets/' );
-					loader.load( 'Text.gltf', function ( gltf ) {
+					loader.load( 'Textupdated.gltf', function ( gltf ) {
 						scene.add( gltf.scene );
             ourObj3 = gltf.scene
 					});
